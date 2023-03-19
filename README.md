@@ -9,20 +9,20 @@ Like the magic 8-Ball, returns a random response
 Encrypts and decrypts files with AES-256 CBC
 
 ### Input
--d: Decrypt file
--e: Encrypt file
--i: File to encrypt
--o: Output encrypted file
--r: Remove input file after encryption
+* -d: Decrypt file
+* -e: Encrypt file
+* -i: File to encrypt
+* -o: Output encrypted file
+* -r: Remove input file after encryption
 
 **Encrypt a file**
-cryptfile.py -e -i input.txt -o output.txt -p password
+* cryptfile.py -e -i input.txt -o output.txt -p password
 
 **Encrypt a file and remove the original after encryption**
-cryptfile.py -e -r -i input.txt -o output.txt -p password
+* cryptfile.py -e -r -i input.txt -o output.txt -p password
 
 **Decrypt a file**
-cryptfile.py -d -i input.txt -o output.txt -p password
+* cryptfile.py -d -i input.txt -o output.txt -p password
 
 
 ## DieRoller.py
