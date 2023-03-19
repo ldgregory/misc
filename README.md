@@ -1,6 +1,9 @@
 # misc
 Miscellaneous scripts that don't deserve a whole repository
 
+## 8ball.py
+Like the magic 8-Ball, returns a random response
+
 ## DieRoller.py
 Rolls one or more die, one or more times, with or without modifiers and outputs the results.
 
